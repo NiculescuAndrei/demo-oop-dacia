@@ -7,6 +7,6 @@ public class DaciaEngineTest {
   public void testSpeedIncrement() {
     DaciaEngine engine = new DaciaEngine();
     engine.setAcceleration(50);
-    assertEquals(2.0, engine.getSpeedIncrement(), 0);
+    assertEquals(1.0, engine.getSpeedIncrement(), 0);
   }
 }
